@@ -16,16 +16,23 @@ Neste repositório você pode consultar todos os scripts necessários para cria�
 # Execução
 Para executar o minimundo, basta utilizar qualquer SGBD compatível com SQL (como SQLite).
 Passo a passo:
+
 1 Execute 1_Criar_Tabelas.sql: Cria todas as tabelas necessárias do banco de dados.
-2 Execute 2_Inserir_Dados.sql: Insere dados fictícios para teste. -- Caso deseje inserir dados reais, basta substituir ou ajustar conforme precisar --
+
+2 Execute 2_Inserir_Dados.sql: Insere dados fictícios para teste. --Caso deseje inserir dados reais, basta substituir ou ajustar conforme precisar--
+
 3 Execute 3_Consultar_Dados.sql: Contém consultas úteis para análise, relatórios e observação dos relacionamentos.
+
 4 Execute 4_Atualizar_Dados.sql: Inclui comandos para correções e atualizações estratégicas no banco.
-Execute 5_Excluir_Dados.sql: Remove informações do banco. -- ATENÇÃO use sempre com cautela para evitar exclusões irreversíveis ATENÇÃO --
+
+5 Execute 5_Excluir_Dados.sql: Remove informações do banco. --ATENÇÃO use sempre com cautela para evitar exclusões irreversíveis ATENÇÃO--
 
 # Guia de Utilização
 Este repositório pode ser utilizado para estudos de SQL, exemplos de modelagem de dados, exercícios e testes em um sistema funcional, evolução de um banco simples para algo maior.
 
 # Programas Utilizados
-Edição: VisualCode -- Em alguns e raros casos pode ser um bloco de notas, porém o VisualCode lhe dará melhor experiência --
-Execução: SQLite -- Embora exista outros, este é um banco mais básico que se adequa bem a base, veja como recomendação --
-Exposição: Git e Github -- Para comentar e mostrar o projeto feito, até mesmo as melhorias caso sejam feitas por terceiros --
+Edição: VisualCode --Em alguns e raros casos pode ser um bloco de notas, porém o VisualCode lhe dará melhor experiência--
+
+Execução: SQLite --Embora exista outros, este é um banco mais básico que se adequa bem a base, veja como recomendação--
+
+Exposição: Git e Github --Para comentar e mostrar o projeto feito, até mesmo as melhorias caso sejam feitas por terceiros--
